@@ -1,0 +1,26 @@
+{
+  "name": "jest-find-related-tests-roots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicojs/jest-find-related-tests-roots.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicojs/jest-find-related-tests-roots/issues"
+  },
+  "homepage": "https://github.com/nicojs/jest-find-related-tests-roots#readme",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "jest": {
+    "roots": ["test"]
+  }
+}
